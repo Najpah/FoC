@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+
+footer p{
+	font-family: Garamond;
+	font-size: 15px;
+  text-align: center;
+  padding: 15px;
+  background-color: DarkSalmon;
+  color: white;
+  margin-bottom: 50px;
+}
+
+h3{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 40px;
+}
+
+ul, p{
+	 font-family: "Brush Script MT", cursive; 
+	 font-size: 30px; 
+	 font-style: normal; 
+	 font-variant: normal; 
+	 font-weight: 700; 
+	 line-height: 26.4px;
+	 color: #800080;
+}
+
+.kiyah{
+	position:relative;
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.kiyah h2{
+	font-family:  "Lucida Bright", Georgia, serif;
+	text-align: center;
+	font-size: 39px;
+	margin: 0;
+	padding: 0;
+	color: #FFFF00;
+}
+
+.kiyah img{
+	vertical-align: middle;
+	max-width: 41%;
+	
+}
+
+.kiyah .kiyahcont{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff
+	width: 40%;
+	padding: 20px;
+}
+
+.kiyahcont{
+	box-sizing: border-box;
+	margin: 0;
+	font-family:  verdana;
+	font-size:2px;
+	background:lightblue;
+
+}
+
+h1 { 
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+font-size: 40px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 700; 
+line-height: 26.4px; 
+color: black;
+margin-bottom: 40px;
+}
+
+.ublogo{
+	display: block;
+  margin-left: 35%;
+  margin-right: 80%;
+  width: 25%;
+}
+
+.main {
+	background-color:  #F0F8FF;
+  padding: 16px;
+  margin-top: 600px;
+  height: 1200px; /* Used in this example to enable scrolling */
+}
+
+body{
+	background: url("imag/background.jpg");
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 1150px;
+}
+
+.container{
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+
+
+}
+.container span{
+  text-transform: uppercase;
+  display: block;
+
+}
+.text1{
+
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: text-transform;
+  position: relative;
+  animation: text 1s 1;
+}
+.text2{
+  font-size: 30px;
+  color: #00FFFF; 
+}
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}

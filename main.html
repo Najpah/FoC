@@ -1,0 +1,145 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+<link rel="StyleSheet" href="External_File.css">
+</head>
+<body>
+	<section class = "parallax">
+		<div class = "container">
+		<span class="text1">Fundamentals of Computing</span>
+		<span class="text2">Najmah Paquiul</span>
+		
+		</div>
+	</section>
+	
+	<div class =  "main">
+	 <img src="imag/UB_Logo.png" class ="ublogo">
+	
+	 </div>
+	
+
+
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Times New Roman;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: red;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+</head>
+<body>
+
+<h3></h3>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'About Course')">About Course</button>
+  <button class="tablinks" onclick="openCity(event, 'Teacher')">Teacher</button>
+  
+</div>
+
+<div style= "color: white" id="About Course" class="tabcontent">
+  <h3>About Course</h3> 
+  <p>This course is an introduction to the fundamentals of Computer Science that will provide students with a foundation for future courses in Computer Science. The course is a broad survey of the discipline through topics that allow students to understand the capabilities of computer systems in terms of: the computer architecture; operating systems and computer networks; software and software development; data organization and visualization; and the potential of computing machines. </p>
+  
+  
+</div>
+
+<div style= "color: blue" id="Teacher" class="tabcontent">
+  <h3>Teacher</h3>
+  
+  <p> Verelle Sylvester </</p>
+  
+</div>
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+ 
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>
+
+
+
+	<footer>
+		<center>
+  <p>@ Powered by UB</p>
+  <p>Fundamentals Of Computing</p>
+</footer>
+</body>
+</center>
+</html>
